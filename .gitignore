@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environment & secrets
+.env
+.env.*
+
+# Personal archives, databases, browser profiles, and reading notes (keep repo clean for open-source)
+output/
+data/
+archives/
+.browser_profile/
+*.db
+*.sqlite
+*.sqlite3
+reading-notes.md
+*.jsonl
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
